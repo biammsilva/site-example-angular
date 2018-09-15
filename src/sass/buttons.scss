@@ -1,0 +1,17 @@
+@import '../../sass/variables';
+
+.btn{
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  background-color: #ededed;
+
+  &:focus{
+    outline: none;
+  }
+
+  &:hover{
+    opacity: 0.5;
+  }
+
+}

@@ -1,11 +1,12 @@
 @import '../../sass/variables';
+@import '../../sass/buttons';
 
 .header {
   top: 0;
   position: fixed;
   left: 0;
   right: 0;
-  height: 90px;
+  height: $tamanho-header;
   background-color: $primary-color;
 
   &-content{
@@ -45,6 +46,30 @@
         opacity: 0.3;
       }
 
+    }
+
+  }
+
+  &-login{
+    float: left;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+    background-color: $text-title-color;
+    transition: 0.5s;
+
+    &:hover{
+      background-color: $fourth-color;
+      border-left: 5px solid #000;
+      color: #000;
+    }
+
+    &-button {
+      padding: 2rem;
+      display: inline-block;
     }
 
   }

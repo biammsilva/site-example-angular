@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  title = "Site de Games";
-  menu_items = [{"link":"home", "texto": "Home"},
+  title = "Site de Teste";
+  menu_items = [{"link":"", "texto": "Home"},
                 {"link":"quem-somos", "texto": "Quem somos"},
                 {"link":"loja", "texto": "Loja"},
                 {"link":"blog", "texto": "Blog"},

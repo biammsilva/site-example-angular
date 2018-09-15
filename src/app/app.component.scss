@@ -2,4 +2,12 @@
 
 .app {
   margin-top: 90px;
+
+  &-base{
+    margin: 0 auto;
+    width: 70vw;
+    padding: 50px 30px 50px 30px;
+    background-color: $cor-fundo;
+  }
+
 }
