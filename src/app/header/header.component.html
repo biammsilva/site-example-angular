@@ -1,0 +1,10 @@
+<div class="header">
+  <div class="header-content">
+    <p class="header-title">{{title}}</p>
+    <ul class="header-menu-list">
+      <li *ngFor="let item  of menu_items" class="header-menu-item">
+        <a href="{{item.link}}">{{item.texto}}</a>
+      </li>
+    </ul>
+  </div>
+</div>
